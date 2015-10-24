@@ -6,3 +6,25 @@ h1 {
     color: orange;
     text-align: center;
 }
+
+td, th { border: 1px solid }
+
+table {
+    border-top: double;
+    border-bottom: double;
+    border-right: blank
+}
+thead, tbody, tfoot {
+    border-top: solid;
+    border-bottom: solid
+}
+colgroup {
+    border-right: solid
+}
+
+#strona {
+    margin     : auto;
+    border     : 1px solid black;
+    padding    : 0px;
+    width      : 758px;
+}
