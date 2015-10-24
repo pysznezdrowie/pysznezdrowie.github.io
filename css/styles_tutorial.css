@@ -1,5 +1,36 @@
-body{background-color=#FFFFCC}
+body{
+background-color:#FFFFCC
+}
 
 h1{color:#FF0000;
 font-family:verdana;
-text-align:center;}
+text-align:center
+;}
+
+mark{
+background-color: red;
+color: black;
+}
+
+p.error {
+    color:red
+}
+
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+table, th, td {
+    border: 1px solid black;
+	border-collapse: separate;
+}
+
+th,td  {
+padding: 5px;
+text-align:center;
+}
+
+table {
+border-spacing:15px;
+}
