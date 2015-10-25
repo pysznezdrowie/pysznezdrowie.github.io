@@ -38,7 +38,33 @@ border-spacing:15px;
 .full_table {
 width: 100%
 }
+
 table#t01{
 width:100%;
 background-color: #FFCCFF;
 }
+
+ul{
+list-style-type:square;
+}
+
+ul#menu li{
+display:inline;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li  {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px
+	}
+
+ul#menu li:hover {
+    background-color:orange;
+}
+
